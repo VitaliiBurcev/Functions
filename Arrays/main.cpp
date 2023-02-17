@@ -132,30 +132,30 @@ void main()
 	Print(mas, INDEX);
 
 	//Двумерный массив
-	int i_arr[ROWS][COLS];
-	FillRand(i_arr, ROWS, COLS);
-	Print(i_arr, ROWS, COLS);
+	int arr_R_C[ROWS][COLS];
+	FillRand(arr_R_C, ROWS, COLS);
+	Print(arr_R_C, ROWS, COLS);
 
-	cout << "Сумма элементов массива: " << Sum(i_arr, ROWS, COLS) << endl;
-	cout << "Средне-арифметическое элементов массива: " << Avg(i_arr, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(i_arr, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(i_arr, ROWS, COLS) << endl;
+	cout << "Сумма элементов массива: " << Sum(arr_R_C, ROWS, COLS) << endl;
+	cout << "Средне-арифметическое элементов массива: " << Avg(arr_R_C, ROWS, COLS) << endl;
+	cout << "Минимальное значение: " << minValueIn(arr_R_C, ROWS, COLS) << endl;
+	cout << "Максимальное значение: " << maxValueIn(arr_R_C, ROWS, COLS) << endl;
 
-	double d_brr_2[ROWS][COLS];
-	FillRand(d_brr_2, ROWS, COLS);
-	Print(d_brr_2, ROWS, COLS);
-	cout << "Сумма элементов массива: " << Sum(d_brr_2, ROWS, COLS) << endl;
-	cout << "Средне-арифметическое элементов массива: " << Avg(d_brr_2, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(d_brr_2, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(d_brr_2, ROWS, COLS) << endl;
+	double arr_R_C[ROWS][COLS];
+	FillRand(arr_R_C, ROWS, COLS);
+	Print(arr_R_C, ROWS, COLS);
+	cout << "Сумма элементов массива: " << Sum(arr_R_C, ROWS, COLS) << endl;
+	cout << "Средне-арифметическое элементов массива: " << Avg(arr_R_C, ROWS, COLS) << endl;
+	cout << "Минимальное значение: " << minValueIn(arr_R_C, ROWS, COLS) << endl;
+	cout << "Максимальное значение: " << maxValueIn(arr_R_C, ROWS, COLS) << endl;
 
-	char ch_matr_2[ROWS][COLS];
-	FillRand(ch_matr_2, ROWS, COLS);
-	Print(ch_matr_2, ROWS, COLS);
-	cout << "Сумма элементов массива: " << Sum(ch_matr_2, ROWS, COLS) << endl;
-	cout << "Средне-арифметическое элементов массива: " << Avg(ch_matr_2, ROWS, COLS) << endl;
-	cout << "Минимальное значение: " << minValueIn(ch_matr_2, ROWS, COLS) << endl;
-	cout << "Максимальное значение: " << maxValueIn(ch_matr_2, ROWS, COLS) << endl;
+	char arr_R_C[ROWS][COLS];
+	FillRand(arr_R_C, ROWS, COLS);
+	Print(arr_R_C, ROWS, COLS);
+	cout << "Сумма элементов массива: " << Sum(arr_R_C, ROWS, COLS) << endl;
+	cout << "Средне-арифметическое элементов массива: " << Avg(arr_R_C, ROWS, COLS) << endl;
+	cout << "Минимальное значение: " << minValueIn(arr_R_C, ROWS, COLS) << endl;
+	cout << "Максимальное значение: " << maxValueIn(arr_R_C, ROWS, COLS) << endl;
 
 }
 
